@@ -31,3 +31,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=Pong \
     SystemDevice=Pong \
     SystemName=Pong
+
+# GApps Integration
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
